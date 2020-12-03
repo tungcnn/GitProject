@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="form.css">
+        <title>Simple Form</title>
+    </head>
+    <body>
+        <div id="div1">
+            <h1>SỞ THÍCH CỦA BẠN</h1>
+            <form method="GET" action="form.html">
+                <span>Họ và tên</span> 
+                <input type="text" name="yourname" placeholder="Họ và tên"> <br>
+                <span>Email</span>
+                <input type="text" name="email" placeholder="Email"><br>
+                <span>Sở thích</span>
+                <div id="div2">
+                    <input type="checkbox" name="hobby" > <span class="hobby">Thể thao</span>
+                    <input type="checkbox" name="hobby"> <span class="hobby">Âm nhạc</span>
+                    <input type="checkbox" name="hobby"> <span class="hobby">Đọc sách</span> <br>
+                    <input type="checkbox" name="hobby"> <span class="hobby">Lướt web</span>
+                    <input type="checkbox" name="hobby"> <span class="hobby">Chơi game</span>
+                    <input type="checkbox" name="hobby"> <span class="hobby">Điện ảnh</span><br>
+                    <input type="checkbox" name="hobby"> <span class="hobby">Du lịch</span> <br>
+                </div>
+                <span><input type="button" name="SubmitForm" value="Gửi thông tin"></span>
+                <span><input type="button" name="ResetForm" value="Nhập lại"></span>
+            </form>
+        </div>
+    </body>
+</html>
