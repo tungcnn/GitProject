@@ -9,22 +9,31 @@
         <div id="div1">
             <h1>SỞ THÍCH CỦA BẠN</h1>
             <form method="GET" action="form.html">
-                <span>Họ và tên</span> 
-                <input type="text" name="yourname" placeholder="Họ và tên"> <br>
-                <span>Email</span>
-                <input type="text" name="email" placeholder="Email"><br>
-                <span>Sở thích</span>
-                <div id="div2">
-                    <input type="checkbox" name="hobby" > <span class="hobby">Thể thao</span>
-                    <input type="checkbox" name="hobby"> <span class="hobby">Âm nhạc</span>
-                    <input type="checkbox" name="hobby"> <span class="hobby">Đọc sách</span> <br>
-                    <input type="checkbox" name="hobby"> <span class="hobby">Lướt web</span>
-                    <input type="checkbox" name="hobby"> <span class="hobby">Chơi game</span>
-                    <input type="checkbox" name="hobby"> <span class="hobby">Điện ảnh</span><br>
-                    <input type="checkbox" name="hobby"> <span class="hobby">Du lịch</span> <br>
+                <table>
+                    <tr>
+                        <td class="leftcol">Họ và tên</td>
+                        <td class="rightcol"><input type="text" name="yourname" placeholder="Họ và tên"></td>
+                    </tr>
+                    <tr>
+                        <td class="leftcol">Email</td>
+                        <td class="rightcol"><input type="text" name="email" placeholder="Email"></td>
+                    </tr>
+                    <tr>
+                        <td class="leftcol">Sở thích</td>
+                        <td class="rightcol">
+                            <input type="checkbox" name="hobby"> <span class="hobby">Thể thao</span>
+                            <input type="checkbox" name="hobby"> <span class="hobby">Âm nhạc</span>
+                            <input type="checkbox" name="hobby"> <span class="hobby">Đọc sách</span> <br>
+                            <input type="checkbox" name="hobby"> <span class="hobby">Lướt web</span>
+                            <input type="checkbox" name="hobby"> <span class="hobby">Chơi game</span>
+                            <input type="checkbox" name="hobby"> <span class="hobby">Điện ảnh</span><br>
+                            <input type="checkbox" name="hobby"> <span class="hobby">Du lịch</span>
+                        </td>
+                    </tr>
+                </table>    
+                    <span><input type="button" name="SubmitForm" value="Gửi thông tin"></span>
+                    <span><input type="button" name="ResetForm" value="Nhập lại"></span>
                 </div>
-                <span><input type="button" name="SubmitForm" value="Gửi thông tin"></span>
-                <span><input type="button" name="ResetForm" value="Nhập lại"></span>
             </form>
         </div>
     </body>
