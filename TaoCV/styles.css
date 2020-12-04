@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 60px;
+}
+.detail {
+    float: left;
+    width: 100%;
+}
+.detail.left {
+    width: 30%;
+}
+.detail.right {
+    width: 70%;
+}
+table {
+    width: 100%;
+    margin: 20px;
+}
+.leftcol {
+    width: 20%;
+}
+.projecttable, .row {
+    border: 1px solid black;
+    width: 50%;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.row.left {
+    width: 15%;
+}
