@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: lightgoldenrodyellow;
+}
+p {
+    background-color: lightblue;
+    color: blue;
+    font-size: x-large;
+    margin: 10px;
+}
+.column {
+    display: flex;
+    padding: 10px;
+}
+.left {
+    flex: 5%;
+}
+.right {
+    flex: 75%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#name {
+    width: 300px;
+}
+#address {
+    width: 200px;
+    height: 50px;
+}
+
+#reset {
+    margin-left: 10px;
+}
+label {
+    color: blue;
+}

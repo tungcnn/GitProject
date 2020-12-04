@@ -1,18 +1,6 @@
 * {
     box-sizing: border-box;
 }
-table {
-    margin-left: 500px;
-}
-td {
-    color: blue;
-}
-.leftcol {
-    text-align: right;
-}
-.rightcol {
-    text-align: left;
-}
 .hobby {
     color: orange;
     width: 100px;
@@ -40,4 +28,30 @@ input[type=text] {
 input[type=checkbox] {
     padding: 5px 5px;
     margin: 5px;
+}
+.column {
+    display: flex;
+    padding: 10px;
+}
+.left {
+    flex: 30%;
+    text-align: right;
+    padding: 10px;
+}
+.right {
+    flex: 50%;
+    text-align: left;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+span {
+    padding-top: 1px;
+    margin-top: 1px;
+    color: blue;
+}
+label {
+    color: orange;
 }

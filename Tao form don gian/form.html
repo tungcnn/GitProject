@@ -9,30 +9,43 @@
         <div id="div1">
             <h1>SỞ THÍCH CỦA BẠN</h1>
             <form method="GET" action="form.html">
-                <table>
-                    <tr>
-                        <td class="leftcol">Họ và tên</td>
-                        <td class="rightcol"><input type="text" name="yourname" placeholder="Họ và tên"></td>
-                    </tr>
-                    <tr>
-                        <td class="leftcol">Email</td>
-                        <td class="rightcol"><input type="text" name="email" placeholder="Email"></td>
-                    </tr>
-                    <tr>
-                        <td class="leftcol">Sở thích</td>
-                        <td class="rightcol">
-                            <input type="checkbox" name="hobby"> <span class="hobby">Thể thao</span>
-                            <input type="checkbox" name="hobby"> <span class="hobby">Âm nhạc</span>
-                            <input type="checkbox" name="hobby"> <span class="hobby">Đọc sách</span> <br>
-                            <input type="checkbox" name="hobby"> <span class="hobby">Lướt web</span>
-                            <input type="checkbox" name="hobby"> <span class="hobby">Chơi game</span>
-                            <input type="checkbox" name="hobby"> <span class="hobby">Điện ảnh</span><br>
-                            <input type="checkbox" name="hobby"> <span class="hobby">Du lịch</span>
-                        </td>
-                    </tr>
-                </table>    
-                    <span><input type="button" name="SubmitForm" value="Gửi thông tin"></span>
-                    <span><input type="button" name="ResetForm" value="Nhập lại"></span>
+                <div class="column">
+                    <div class="left">
+                        <span>Họ và tên</span>
+                    </div>
+                    <div class="right">
+                        <input type="text" name="yourname">
+                    </div>          
+                </div>
+                <div class="column">
+                    <div class="left">
+                        <span>Email</span>
+                    </div>
+                    <div class="right">
+                        <input type="text" name="email">
+                    </div>          
+                </div>
+                <div class="column">
+                    <div class="left">
+                        <span>Sở thích</span>
+                    </div>
+                    <div class="right">
+                        <input type="checkbox" name="hobby" id="sport"> <label for="sport">Thể thao</label>
+                            <input type="checkbox" name="hobby" id="music"> <label for="music">Âm nhạc</label>
+                            <input type="checkbox" name="hobby" id="read"> <label for="read">Đọc sách</label> <br>
+                            <input type="checkbox" name="hobby" id="web"> <label for="web">Lướt web</label>
+                            <input type="checkbox" name="hobby" id="game"> <label for="game">Chơi game</label>
+                            <input type="checkbox" name="hobby" id="film"> <label for="film">Điện ảnh</label> <br>
+                            <input type="checkbox" name="hobby" id="travel"> <label for="travel">Du lịch</label>
+                    </div>          
+                </div>
+                <div class="column">
+                    <div class="left">
+                    </div>
+                    <div class="right">
+                        <span><input type="button" name="SubmitForm" value="Gửi thông tin"></span>
+                        <span><input type="button" name="ResetForm" value="Nhập lại"></span>
+                    </div>          
                 </div>
             </form>
         </div>
