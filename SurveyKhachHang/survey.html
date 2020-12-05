@@ -12,6 +12,7 @@
         <header>
             <h2>Market Research Survey</h2>
             <p>Please take a few moments to answer this satisfaction survey</p>
+            <hr>
         </header>
         <ul>
             <li>
@@ -43,7 +44,7 @@
                 <input type="radio" id="other" name="gender" value="other">
                 <label for="other">
                     Other <br>
-                    <input type="text" name="other" id="other">
+                    <input type="text" name="other" id="othertext">
                 </label>
             </li>
             <li>
@@ -68,15 +69,84 @@
             <li>
                 <span class="question">What would you pay for the new product?</span><br>
                 <span>$</span>
-                <input type="text" name="dollaro" id="dollar"> 
+                <input type="text" name="dollar" id="dollar"> 
                 <span>.</span>
                 <input type="text" name="cent" id="cent"><br>
-                <label for="dollar">Dollars</label>
-                <label for="cent">Cents</label>
+                <label for="dollar" id="dollarlabel">Dollars</label>
+                <label for="cent" id="centlabel">Cents</label>
             </li>
             <li>
                 <span class="question">What features would you like to see in the new product.</span><br>
                 <input type="text" name="opinion" id="opinion">
+            </li>
+            <li>
+                <span class="question">Please rate your level of agreement with the following statements.</span><br>
+                <table>
+                    <tr>
+                        <th></th>
+                        <td>Strongly Disagree</td>
+                        <td>Disagree</td>
+                        <td>Agree</td>
+                        <td>Strongly Agree</td>
+                    </tr>
+                    <tr>
+                        <th>Our products are priced fairly.</th>
+                        <td>
+                            <input type="radio" name="fairprice" id="1a">
+                            <label for="1a">1</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="fairprice" id="2a">
+                            <label for="2a">2</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="fairprice" id="3a">
+                            <label for="3a">3</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="fairprice" id="4a">
+                            <label for="4a">4</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Our products are high quality.</th>
+                        <td>
+                            <input type="radio" name="quality" id="1b">
+                            <label for="1b">1</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="quality" id="2b">
+                            <label for="2b">2</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="quality" id="3b">
+                            <label for="3b">3</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="quality" id="4b">
+                            <label for="4b">4</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>You would recommend our product to a friend or coworker.</th>
+                        <td>
+                            <input type="radio" name="recommend" id="1c">
+                            <label for="1c">1</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="recommend" id="2c">
+                            <label for="2c">2</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="recommend" id="3c">
+                            <label for="3c">3</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="recommend" id="4c">
+                            <label for="4c">4</label>
+                        </td>
+                    </tr>
+                </table>
             </li>
         </ul>
         <dive class="footer">

@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 ul {
     margin: 0;
     padding: 0;
@@ -14,18 +17,32 @@ ul {
 }
 ul, li {
     padding-bottom: 20px;
-    padding-left: 5px;
+    /* padding-left: 5px; */
 }
 .question {
     font-weight: bold;
 }
 #dollar {
-    width: 30px;
+    width: 50px;
 }
 #cent {
-    width: 10px;
+    width: 17px;
 }
 #opinion {
     width: 90%;
     height: 100px;
+}
+#othertext {
+    margin-left: 24px;
+}
+#dollarlabel, #centlabel {
+    font-size: small;
+    margin-left: 16px;
+}
+p {
+    font-size: small;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
 }
