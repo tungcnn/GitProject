@@ -1,0 +1,41 @@
+body {
+    padding: 50px;
+}
+h1 {
+    color: blue;
+    text-align: center;
+}
+.detail {
+    display: inline-block;
+    width: 100%;
+}
+.detail.left {
+    float: left;
+    width: 50%;
+}
+.detail.right    {
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+p {
+    margin: 0;
+    color: blue;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td, th {
+    padding: 10px;
+    border: 1px solid black;
+}
+.date {
+    background-color: yellow;
+}
+.week, .datestart, .dateend, .subject {
+    background-color: orange;
+}
+.week {
+    width: 5%;
+}
