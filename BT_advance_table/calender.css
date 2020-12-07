@@ -1,0 +1,50 @@
+body {
+    padding: 20px;
+}
+h1 {
+    color: blue;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    font-weight: normal;
+}
+.sunday {
+    color: red;
+}
+.saturday {
+    color: blue;
+}
+.weekday {
+    background-color: yellow;
+    border: 2px solid white;
+    color: white;
+}
+.chunhat {
+    color: white;
+    background-color: red;
+}
+.thubay {
+    color: white;
+    background-color: blue;
+}
+td {
+    border: 2px gray solid;
+    width: 40px;
+    height: 25px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+tr td:nth-last-child(1) {
+    color: blue;
+}
+tr td:nth-child(1) {
+    color: red;
+}
+sub {
+    color: black;
+}
